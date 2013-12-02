@@ -4,3 +4,6 @@ lib
 ~*
 *.db
 settings.ini
+Scripts
+Lib
+Include
