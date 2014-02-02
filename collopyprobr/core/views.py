@@ -2,4 +2,4 @@
 from django.views.generic import TemplateView
 
 class HomeView(TemplateView):
-    template_name = "bootstrap2.html"
+    template_name = "index.html"
