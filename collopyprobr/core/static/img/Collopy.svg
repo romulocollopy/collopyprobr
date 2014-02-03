@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="744.09448"
+   height="1052.3622"
+   id="svg2031"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Collopy.svg">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview26"
+     showgrid="false"
+     inkscape:zoom="0.55497033"
+     inkscape:cx="204.71994"
+     inkscape:cy="513.41746"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     units="cm" />
+  <defs
+     id="defs2033">
+    <linearGradient
+       id="linearGradient4671">
+      <stop
+         style="stop-color:#ffc836;stop-opacity:1"
+         offset="0"
+         id="stop4673" />
+      <stop
+         style="stop-color:#ffe873;stop-opacity:1"
+         offset="1"
+         id="stop4675" />
+    </linearGradient>
+    <linearGradient
+       x1="224.23996"
+       y1="144.75717"
+       x2="-65.308502"
+       y2="144.75717"
+       id="linearGradient1874"
+       xlink:href="#linearGradient4671"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4689">
+      <stop
+         style="stop-color:#366a96;stop-opacity:1"
+         offset="0"
+         id="stop4691" />
+      <stop
+         style="stop-color:#3679b0;stop-opacity:1"
+         offset="1"
+         id="stop4693" />
+    </linearGradient>
+    <linearGradient
+       x1="172.94208"
+       y1="77.475983"
+       x2="26.670298"
+       y2="76.313133"
+       id="linearGradient1872"
+       xlink:href="#linearGradient4689"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4689"
+       id="linearGradient3012"
+       gradientUnits="userSpaceOnUse"
+       x1="172.94208"
+       y1="77.475983"
+       x2="26.670298"
+       y2="76.313133"
+       gradientTransform="translate(58.843604,-47.650562)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4689"
+       id="linearGradient3032"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(58.843604,-47.650562)"
+       x1="172.94208"
+       y1="77.475983"
+       x2="26.670298"
+       y2="76.313133" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4689"
+       id="linearGradient3157"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(58.843604,-47.650562)"
+       x1="172.94208"
+       y1="77.475983"
+       x2="26.670298"
+       y2="76.313133" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(0,702.36311)">
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       id="rect3131-5"
+       width="1273.942"
+       height="286.5018"
+       x="-258.57239"
+       y="12.143177" />
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:none"
+       id="rect3131"
+       width="1273.942"
+       height="286.5018"
+       x="-261.27524"
+       y="373.0466"
+       transform="translate(0,-702.36311)" />
+    <g
+       id="g3122"
+       transform="translate(0,-120)">
+      <g
+         id="g1858"
+         transform="matrix(1.200851,0,0,1.200851,98.655301,-545.24633)">
+        <g
+           transform="matrix(1.000893,0,0,1.000893,-56.070576,-1.2202792)"
+           id="g3028">
+          <path
+             inkscape:connector-curvature="0"
+             id="path1948"
+             style="fill:url(#linearGradient3157);fill-opacity:1"
+             d="m 231.78569,23.373239 0,20.989178 c 0,13.181701 -10.57006,23.981161 -23.82234,23.981161 l -47.62704,0 c -16.16391,0 -29.78676,13.78166 -29.78676,29.36324 l 0,21.563632 -16.37565,0 c -13.85225,0 -21.916557,-9.98773 -25.304623,-23.963512 -4.570361,-18.77553 -4.376253,-29.96321 0,-47.94467 3.793928,-15.687454 15.916853,-23.963513 29.769103,-23.963513 l 17.87558,0 47.64469,0 c 22.5958,-0.02551 23.04421,-0.02551 47.62704,-0.02552 z"
+             sodipodi:nodetypes="csssscsccsccc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path1950"
+             style="fill:#ffd753;fill-opacity:1"
+             d="m 246.76904,158.95876 0,-21.72465 c 0,-13.30642 -10.73584,-24.67042 -23.72078,-24.67042 l -47.42398,0 c -15.79627,0 -29.65975,-14.105172 -29.65975,-30.824424 l 0,-21.566199 -17.7818,0 c -13.81076,0 -20.31203,10.601567 -23.72079,24.652273 -4.744157,19.51487 -4.954997,34.11018 0,49.3227 4.79687,14.77685 9.92759,24.65229 23.72079,24.65229 l 23.72079,0 47.42398,0 c 22.18096,0.15843 29.43409,0.15843 47.44154,0.15843 z"
+             sodipodi:nodetypes="csssscsccsccc" />
+        </g>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3034"
+           y="156.3679"
+           x="190.53806"
+           style="font-size:99.08882141px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#366b98;fill-opacity:1;stroke:none;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Flux;-inkscape-font-specification:Flux Semi-Bold"
+             y="156.3679"
+             x="190.53806"
+             id="tspan3036"
+             sodipodi:role="line">ollopy</tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3104"
+         y="-300.18164"
+         x="330.99792"
+         style="font-size:63.46552658px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffd753;fill-opacity:1;stroke:none;font-family:Flux;-inkscape-font-specification:Flux Semi-Bold"
+         xml:space="preserve"><tspan
+           y="-300.18164"
+           x="330.99792"
+           id="tspan3106"
+           sodipodi:role="line">.pro.br</tspan></text>
+    </g>
+    <path
+       sodipodi:nodetypes="csssscsccsccc"
+       d="m 309.9115,41.54456 0,25.22739 c 0,15.84339 -12.7044,28.82352 -28.63262,28.82352 l -57.24406,0 c -19.42778,0 -35.8014,16.5645 -35.8014,35.29236 l 0,25.91784 -19.68228,0 c -16.64934,0 -26.34202,-12.00449 -30.41422,-28.80231 -5.49322,-22.56675 -5.25992,-36.01348 0,-57.62582 4.56001,-18.85512 19.13084,-28.80231 35.78019,-28.80231 l 21.48507,0 57.26527,0 c 27.15842,-0.0307 27.69738,-0.0307 57.24405,-0.0307 z"
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff"
+       id="path3040"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="csssscsccsccc"
+       d="m 327.92034,204.50798 0,-26.11137 c 0,-15.9933 -12.90365,-29.65195 -28.51056,-29.65195 l -56.99999,0 c -18.9859,0 -35.64875,-16.95334 -35.64875,-37.0486 l 0,-25.92092 -21.37236,0 c -16.59947,0 -24.4135,12.74227 -28.51057,29.63014 -5.70211,23.45538 -5.95553,40.99783 0,59.28211 5.76547,17.76064 11.9322,29.63016 28.51057,29.63016 l 28.51058,0 56.99999,0 c 26.65981,0.19043 35.37752,0.19043 57.02109,0.19043 z"
+       style="fill:#808080;fill-opacity:1;stroke:#000000"
+       id="path3042"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3044"
+       y="202.69167"
+       x="327.4631"
+       style="font-size:118.99091339000000289px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;fill:#000000;stroke:#ffffff;font-family:Flux;-inkscape-font-specification:Flux Semi-Bold"
+         y="202.69167"
+         x="327.4631"
+         id="tspan3046"
+         sodipodi:role="line">ollopy</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3114"
+       y="259.81836"
+       x="330.99792"
+       style="font-size:63.46552658000000235px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;font-family:Flux;-inkscape-font-specification:Flux Semi-Bold"
+       xml:space="preserve"><tspan
+         y="259.81836"
+         x="330.99792"
+         id="tspan3116"
+         sodipodi:role="line">.pro.br</tspan></text>
+    <g
+       id="g3117"
+       inkscape:export-filename="/home/romulocollopy/dev/collopy.pro.br/collopyprobr/core/static/img/collopy-logo-white.png"
+       inkscape:export-xdpi="28"
+       inkscape:export-ydpi="28">
+      <path
+         inkscape:export-ydpi="28"
+         inkscape:export-xdpi="28"
+         inkscape:export-filename="/home/romulocollopy/dev/collopy.pro.br/collopyprobr/core/static/img/collopy-logo-bp.png"
+         sodipodi:nodetypes="csssscsccsccc"
+         d="m 309.91154,-298.03712 0,25.22739 c 0,15.84339 -12.7044,28.82352 -28.63263,28.82352 l -57.24405,0 c -19.42778,0 -35.8014,16.5645 -35.8014,35.29236 l 0,25.91783 -19.68228,0 c -16.64934,0 -26.34202,-12.00448 -30.41422,-28.8023 -5.49322,-22.56675 -5.25992,-36.01348 0,-57.62582 4.56001,-18.85512 19.13084,-28.80231 35.78018,-28.80231 l 21.48508,0 57.26527,0 c 27.15842,-0.0307 27.69737,-0.0307 57.24405,-0.0307 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff"
+         id="path3028"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="28"
+         inkscape:export-xdpi="28"
+         inkscape:export-filename="/home/romulocollopy/dev/collopy.pro.br/collopyprobr/core/static/img/collopy-logo-bp.png"
+         sodipodi:nodetypes="csssscsccsccc"
+         d="m 327.92038,-135.07371 0,-26.11136 c 0,-15.9933 -12.90366,-29.65196 -28.51056,-29.65196 l -56.99999,0 c -18.98591,0 -35.64875,-16.95333 -35.64875,-37.04859 l 0,-25.92092 -21.37236,0 c -16.59948,0 -24.4135,12.74227 -28.51057,29.63014 -5.70211,23.45538 -5.95553,40.99782 0,59.28211 5.76547,17.76064 11.9322,29.63016 28.51057,29.63016 l 28.51057,0 56.99999,0 c 26.65982,0.19042 35.37752,0.19042 57.0211,0.19042 z"
+         style="fill:#808080;fill-opacity:1;stroke:none"
+         id="path3030"
+         inkscape:connector-curvature="0" />
+      <text
+         inkscape:export-ydpi="28"
+         inkscape:export-xdpi="28"
+         inkscape:export-filename="/home/romulocollopy/dev/collopy.pro.br/collopyprobr/core/static/img/collopy-logo-bp.png"
+         sodipodi:linespacing="125%"
+         id="text3032"
+         y="-136.89001"
+         x="327.4631"
+         style="font-size:118.99091339000000289px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;fill:#ffffff;stroke:#ffffff;font-family:Flux;-inkscape-font-specification:Flux Semi-Bold"
+           y="-136.89001"
+           x="327.4631"
+           id="tspan3034"
+           sodipodi:role="line">ollopy</tspan></text>
+      <text
+         inkscape:export-ydpi="28"
+         inkscape:export-xdpi="28"
+         inkscape:export-filename="/home/romulocollopy/dev/collopy.pro.br/collopyprobr/core/static/img/collopy-logo-bp.png"
+         sodipodi:linespacing="125%"
+         id="text3118"
+         y="-77.624298"
+         x="330.99792"
+         style="font-size:63.46552658000000235px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;font-family:Flux;-inkscape-font-specification:Flux Semi-Bold"
+         xml:space="preserve"><tspan
+           y="-77.624298"
+           x="330.99792"
+           id="tspan3120"
+           sodipodi:role="line">.pro.br</tspan></text>
+    </g>
+  </g>
+</svg>
