@@ -3,3 +3,4 @@ Unipath==1.0
 dj-database-url==0.2.2
 django-decouple==2.0
 gunicorn==18.0
+django-bootstrap3
