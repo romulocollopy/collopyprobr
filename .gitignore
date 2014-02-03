@@ -1,6 +1,5 @@
-Django==1.6
-Unipath==1.0
-dj-database-url==0.2.2
-django-bootstrap3==2.5.0
-django-decouple==2.0
-gunicorn==18.0
+bin/*
+lib/*
+*.ini
+*.swp
+*.pyc
