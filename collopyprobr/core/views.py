@@ -10,6 +10,6 @@ def homepage(request):
             "permalink":"post-1",
             "date":"22/01/2014",
             }
-    context = post
+    context = {"post":post}
     
     return render(request, template_name, context, content_type="text/html")
