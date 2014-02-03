@@ -3,10 +3,9 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-from collopyprobr.core.views import HomeView
 
-urlpatterns = patterns('',
-        url(r'^$', HomeView.as_view(),name='home'),
+urlpatterns = patterns('collopyprobr.core.views',
+        url(r'^$', 'homepage', name='home'),
         # url(r'^blog/', include('blog.urls')),
         url(r'^admin/', include(admin.site.urls)),
 )
