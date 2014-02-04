@@ -5,7 +5,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('collopyprobr.core.views',
         url(r'^$', 'homepage', name='home'),
-        url(r'^about/', 'about', name='about'),
-        url(r'^contact/', 'contact', name='contact'), 
+        url(r'^about/$', 'aboutpage', name='about'),
+        url(r'^contact/$', 'contactpage', name='contact'), 
         url(r'^admin/', include(admin.site.urls)),
         )

@@ -12,7 +12,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="{{ STATIC_URL }}img/ico/favicon.ico">
 
-    <title>collopy.pro.br</title>
+    <title>ollopy.pro.br</title>
 
      <!-- Bootstrap core CSS -->
      {% bootstrap_css %}
@@ -49,10 +49,10 @@
           </div>
 
           <div class="inner cover">
-              <h1 class="cover-heading">{{ post.title }}</h1>
-              <p class="lead">{{ post.content|truncatewords:"30" }} </p>
+              <h1 class="cover-heading">{{ history.title }}</h1>
+              <p class="lead">{{ history.content|truncatewords:"30" }} </p>
             <p class="lead">
-            <a href="{{ post.permalink }}" class="btn btn-lg btn-default">Leia mais</a>
+            <a href="{{ history.permalink }}" class="btn btn-lg btn-default">Leia mais</a>
             </p>
           </div>
 
