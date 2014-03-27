@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-sudo add-apt-repository ppa:fkrull/deadsnakes
+sudo apt-get install -y python-software-properties
+sudo add-apt-repository -y ppa:fkrull/deadsnakes
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install -y python-pip
-sudo apt-get install -y python-software-properties
 sudo apt-get install -y python3.4
 sudo apt-get install -y python3.4-dev
-sudo pip install virtualenv
+sudo pip install -y virtualenv
 sudo apt-get install -y apache2
 rm -rf /var/www
 ln -fs /vagrant /var/www
