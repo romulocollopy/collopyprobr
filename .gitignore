@@ -4,3 +4,8 @@ lib/*
 *.swp
 *.pyc
 *.db
+Scripts/*
+Lib/*
+Include/*
+.vagrantlib64
+local/*
