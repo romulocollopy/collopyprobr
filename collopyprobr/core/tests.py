@@ -39,4 +39,16 @@ class ContactTest(TestCase):
         'About must use template core/contact.html'
         self.assertTemplateUsed(self.resp, 'core/contact.html')
 
+class PostTest(TestCase):
+    def SetUp(self):
+        self.resp = self.client.get('/posts/')
+
+    def test_get(self):
+        'GET /posts/ must return status code 200'
+        self.assertEqual(200, self.resp.status_code)
+
+    def test_template(self):
+        'Posts must use template core/posts.html'
+        self.assertTemplateUsed(self.resp, 'core/posts.html')
+
 
