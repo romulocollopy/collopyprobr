@@ -39,10 +39,10 @@ def collopyprobr():
     #  django static dir
     env.django_static_path = join(env.code_root,'assets')
     #  django media url and root dir
-    env.django_media_url = '/site-media/media/'
+    env.django_media_url = '/media/'
     env.django_media_root = env.code_root
     #  django static url and root dir
-    env.django_static_url = '/site-static/static/'
+    env.django_static_url = '/assets/'
     env.django_static_root = env.code_root
     #  do you use south in your django project?
     env.south_used = False 
