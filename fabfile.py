@@ -17,8 +17,7 @@ def collopyprobr():
     env.hosts = ['root@collopy.pro.br', ]
     # additional packages to be installed on the server
     env.additional_packages = [
-        'mercurial',
-        'git',
+        'git-core',
     ]
     #  system user, owner of the processes and code on your server
     #  the user and it's home dir will be created if not present

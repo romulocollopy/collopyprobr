@@ -10,3 +10,4 @@ Include/*
 .vagrant
 lib64
 local/*
+*~
