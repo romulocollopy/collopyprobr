@@ -35,9 +35,9 @@ def collopyprobr():
     #  the Python path to a Django settings module.
     env.django_project_settings = 'settings'
     #  django media dir
-    env.django_media_path = join(env.code_root,env.project,'media')
+    env.django_media_path = join(env.code_root,'media')
     #  django static dir
-    env.django_static_path = join(env.code_root,env.project,'static')
+    env.django_static_path = join(env.code_root,'assets')
     #  django media url and root dir
     env.django_media_url = '/media/'
     env.django_media_root = env.code_root
