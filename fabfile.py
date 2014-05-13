@@ -9,8 +9,9 @@ from fagungis.tasks import *
 def collopyprobr():
     #  name of your project - no spaces, no special chars
     env.project = 'collopyprobr'
+    env.branch='master'
     #  hg repository of your project
-    env.repository = 'https://github.com/romulocollopy/collopyprobr.git'
+    env.repository = 'git@github.com:romulocollopy/collopyprobr.git'
     #  type of repository (git or hg)
     env.repository_type = 'git'
     #  hosts to deploy your project, users must be sudoers
@@ -35,9 +36,9 @@ def collopyprobr():
     #  the Python path to a Django settings module.
     env.django_project_settings = 'settings'
     #  django media dir
-    env.django_media_path = join(env.code_root, 'media')
+    env.django_media_path = join(env.code_root,'media')
     #  django static dir
-    env.django_static_path = join(env.code_root, 'static')
+    env.django_static_path = join(env.code_root,'assets')
     #  django media url and root dir
     env.django_media_url = '/media/'
     env.django_media_root = env.code_root
@@ -88,3 +89,4 @@ def collopyprobr():
     env.supervisor_stdout_logfile = '%(django_user_home)s/logs/projects/supervisord_%(project)s.log' % env
     env.supervisord_conf_file = '%(django_user_home)s/configs/supervisord/%(project)s.conf' % env
     ### END supervisor settings ###
+
