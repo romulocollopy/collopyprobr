@@ -20,11 +20,20 @@ def contactpage(request):
 
 def homepage(request):
     template_name = "core/index.html"
-    dictionary = {"history": histories["1"]}
+    dictionary = {"histories": histories}
+
     return render(request, template_name, dictionary, content_type="text/html")
 
 
 def postdetail(request, id):
     template_name = "core/detail.html"
-    dictionary = get_object_or_404(histories, pk=id)
+
+    # dictionary = get_object_or_404(histories, pk=id)
+    dictionary = {"history": fakefilter(histories, "id", int(id))[0]}
+
     return render(request, template_name, dictionary, content_type="text/html")
+
+
+def fakefilter(values, prop, val):
+    "filtra a lista de objetos por uma propriedade"
+    return [i for i in values if i[prop] == val]

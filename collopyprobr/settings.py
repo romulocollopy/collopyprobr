@@ -1,3 +1,5 @@
+# coding: utf-8
+
 """
 Django settings for collopyprobr project.
 
@@ -9,7 +11,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-import os
+
 from decouple import config
 import dj_database_url
 from unipath import Path
