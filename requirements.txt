@@ -1,6 +1,7 @@
-Django==1.6.3
+Django==1.7
 Unipath==1.0
 dj-database-url==0.3.0
-django-bootstrap3==3.3.0
-django-decouple==2.1
-gunicorn==18.0
+django-bootstrap==0.2.4
+django-bootstrap3==4.11.0
+gunicorn==19.1.1
+python-decouple==2.3

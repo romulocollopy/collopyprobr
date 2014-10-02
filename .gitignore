@@ -11,3 +11,4 @@ Include/*
 lib64
 local/*
 *~
+venv/*

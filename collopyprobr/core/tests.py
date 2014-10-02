@@ -1,10 +1,12 @@
 # coding: utf-8
 from django.test import TestCase
 
+
 class HomePageTest(TestCase):
+
     def setUp(self):
         self.resp = self.client.get('/')
-    
+
     def test_get(self):
         'GET / must return status code 200'
         self.assertEqual(200, self.resp.status_code)
@@ -15,6 +17,7 @@ class HomePageTest(TestCase):
 
 
 class AboutTest(TestCase):
+
     def setUp(self):
         self.resp = self.client.get('/about/')
 
@@ -28,6 +31,7 @@ class AboutTest(TestCase):
 
 
 class ContactTest(TestCase):
+
     def setUp(self):
         self.resp = self.client.get('/contact/')
 
@@ -39,7 +43,9 @@ class ContactTest(TestCase):
         'About must use template core/contact.html'
         self.assertTemplateUsed(self.resp, 'core/contact.html')
 
+
 class PostTest(TestCase):
+
     def SetUp(self):
         self.resp = self.client.get('/posts/')
 
@@ -50,5 +56,3 @@ class PostTest(TestCase):
     def test_template(self):
         'Posts must use template core/posts.html'
         self.assertTemplateUsed(self.resp, 'core/posts.html')
-
-

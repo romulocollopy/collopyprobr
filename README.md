@@ -1,6 +1,4 @@
-My personal website. 
+Meu site pessoal http://collopy.pro.br
+==
 
-Django/Python3
-
-My django decouple is a fork waiting for merge, it may not work in python3.
-https://github.com/romulocollopy/django-decouple/tree/patch-2
+Feito com Python3.3 / Django1.7
