@@ -65,10 +65,18 @@ WSGI_APPLICATION = 'collopyprobr.wsgi.application'
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(
+    'tests': dj_database_url.config(
         'DATABASE_URL',
         default='sqlite:///' + BASE_DIR.child('database.db'),
-    )
+    ),
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': config('DATABASE_NAME'),
+        'USER': 'postgres',
+        'PASSWORD': config('DATABASE_KEY'),
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
 }
 
 # Internationalization
