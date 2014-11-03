@@ -18,11 +18,11 @@ histories = [
 ]
 
 about = {
-    "title": "Sobre Rômulo Collopy",
-    "content": "Rômulo é um cara bem legal. É gente boa, nunca foi preso à toa.",
+    "title": "Hey, enchanté!",
+    "content": "<p>Estou começando esse espaço para estudar tecnologias, fazer testes, anotações e compartilhar um pouco do que eu aprender com a comunidade.</p><p>Sinta-se à vontade para entrar em contato, perguntar, contribuir, e <a href=\"http://github.com/romulocollopy/collopyprobr\" title=\"Github\">fuçar meu GitHub</a> para ver como eu fiz cada componente do projeto</p><p>Meu foco de estudos no momento é <a href=\"http://www.python.org/\" title=\"Python is powerful... and fast; plays well with others; runs everywhere; is friendly & easy to learn; is Open.\">Python</a> e <a href=\"https://angularjs.org/\" title=\"Superheroic JavaScript MVW Framework.\">AngularJS</a>.</p><p>Esse site é feito com <a href=\"https://www.djangoproject.com/\" title=\"The Web framework for perfectionists with deadlines.\">Django</a> e <a href=\"http://www.postgresql.org/\" title=\"The world's most advanced open source database.\">PostreSQL</a>, mas planejo abordar também o micro-framework <a href=\"http://flask.pocoo.org/\" title=\"Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.\">Flask</a> com o <a href=\"http://www.mongodb.org/\" title=\"MongoDB (from humongous) is an open-source document database.\">MongoDB</a>.</p>",
 }
 
 contact = {
-    "tile": "título",
-    "content": "conteúdo",
+    "title": "#beijomeliga",
+    "content": "<div><ul><li><a href=\"mailto:romulocollopy@gmail.com\">romulocollopy@gmail.com</a></li><a href=\"http://facebook.com/romulocollopy\"><li>facebook.com/romulocollopy</a></li><li><a href=\"http://github.com/romulocollopy\">http://github.com/romulocollopy</a></li></ul></div>",
 }

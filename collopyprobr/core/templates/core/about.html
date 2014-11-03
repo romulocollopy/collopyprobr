@@ -4,7 +4,7 @@
 
 {% block content %}
     <h1 class="cover-heading">{{ about.title }}</h1>
-    <p class="lead">{{ about.content }} </p>
+    <p class="lead">{{ about.content | safe }} </p>
     <p class="lead">
         <a href="/contact/" class="btn btn-lg btn-default">Entre em contato!</a>
     </p>

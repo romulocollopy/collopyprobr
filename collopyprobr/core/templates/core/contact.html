@@ -3,8 +3,8 @@
 {% block page_name %}contact{% endblock page_name%}
 
 {% block content %}
-    <h1 class="cover-heading">{{ contact.title }}</h1>
-    <p class="lead">{{ contact.content|truncatewords:"30" }} </p>
+    <h1 class="cover-heading">{{ contact.title | safe }}</h1>
+    <p class="lead">{{ contact.content | safe }} </p>
     <p class="lead">
     <a href="{{ contact.permalink }}" class="btn btn-lg btn-default">Leia mais</a>
     </p>
