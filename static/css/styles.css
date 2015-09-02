@@ -1,0 +1,20 @@
+html, h1, h2, h3, h4, h5, h6 {font-family: Tahoma}
+html, p {font-family: Verdana; }
+p { font-size: 18px; line-height: 26px;}
+
+body > footer {margin: 50px auto; font-size: .7em}
+
+nav, article, footer, aside, figure, figcaption {position: relative; margin: auto; max-width: 740px; clear: both;}
+nav, aside {font-family: 'Lucida Console', Monaco, monospace; background-color:#efefef; padding: 5px; height:auto; vertical-align: text-top}
+
+@media (max-width: 740px) {
+  figure img {
+    width:100%; height:auto;
+  }
+}
+
+nav dl {margin: 10px 50px 10px 10px; display: inline-block; height: auto; vertical-align: top }
+
+time {font-size: .7em}
+.byline.author.vcard {font-size: .7em}
+
