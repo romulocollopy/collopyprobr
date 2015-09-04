@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<title>./collo.py</title>
+		<link rel="stylesheet" href="static/css/styles.css">
+	</head>
+	<body>
+		<header>
+			{% if not article %}
+			<div class="logo"><a href="/"><h1>./collo.py</h1></a></div>
+			{% else %}
+			<div class="logo"><a href="/"><h4>./collo.py</h4></a></div>
+			{% endif %}
+			<nav>
+				<dl id="menu">
+					<dt class=>./collo.py --artigos</dt>
+					<dd>[u] <a href="#">último</a></dd>
+					<dd>[t] <a href="#">todos</a></dd>
+				</dl>
+				<dl id="contacts">
+					<dt>./collo.py --contatos</dt>
+					<dd>[g] <a href="http://github.com/romulocollopy" target="_blank">github</a></dd>
+					<dd>[t] <a href="http://twitter.com/romulocollopy" target="_blank">twitter</a></dd>
+					<dd>[f] <a href="http://facebook.com/romulocollopy" target="_blank">facebook</a></dd>
+					<dd>[f] <a href="mailto:romulocollopy@gmail.com" target="_blank">email</a></dd>
+				</dl>
+			</nav>
+		</header>
+
+		{% block content %}
+		{% endblock content %}
+		<footer>
+			<div class="source-org vcard copyright">
+				Copyright 2015 <span class="org fn">Rômulo Collopy</span>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,68 +1,42 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no">
-		<title>./collo.py</title>
-		<link rel="stylesheet" href="static/css/styles.css">
-	</head>
-	<body>
-		<nav>
-			<dl id="menu">
-				<dt class=>./collo.py --artigos</dt>
-				<dd>[u] <a href="#">último</a></dd>
-				<dd>[t] <a href="#">todos</a></dd>
-			</dl>
-			<dl id="contacts">
-				<dt>./collo.py --contatos</dt>
-				<dd>[g] <a href="http://github.com/romulocollopy" target="_blank">github</a></dd>
-				<dd>[t] <a href="http://twitter.com/romulocollopy" target="_blank">twitter</a></dd>
-				<dd>[f] <a href="http://facebook.com/romulocollopy" target="_blank">facebook</a></dd>
-				<dd>[f] <a href="mailto:romulocollopy@gmail.com" target="_blank">email</a></dd>
-			</dl>
-		</nav>
-		<article class="hentry">
-			<header>
-				<h1 class="entry-title">But Will It Make You Happy?</h1>
-				<h2 class="entry-summary">
+{% extends 'article_list.html' %}
+
+		{% block content %}
+		<section name=content>
+			<article class="hentry">
+				<time class="published" datetime="2012-01-07 11:11:03-0400">
+					07/01/2015
+				</time>, 
+				<span class="byline author vcard">
+					<span class="fn">Rômulo Collopy</span>
+				</span>
+				<h2>But Will It Make You Happy?</h2>
+				<h3>
 					How you spend has a greater effect on your happiness than how
 					much you spend, researchers say.
-				</h2>
+				</h3>
+			</article>
+			<hr/>
+			<article>
 				<time class="published" datetime="2012-01-07 11:11:03-0400">
-				07/01/2015
-				</time>
-				<p class="byline author vcard">
-					__author__ = "<span class="fn">Rômulo Collopy</span>"
-				</p>
-			</header>
-			<div class="entry-content">
-				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-				<p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
-
-				<figure>
-					<img src="/static/images/romulo.jpg" alt="to muito bonito nessa foto" />
-					<figcaption>Eu acho que essa foto favoreceu o tom da minha barba</figcaption>
-				</figure>
-				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-				<p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
-			</div>
-			<footer>
-				<p>Agradeço especialmente ao Bernanrdo Fontes, que me ensinou a usar essa biblioteca</p>
-			</footer>
-			<aside>
-				<dl>
-					<dt>./collo.py --compartilhar</dt>
-					<dd>[yy] <a href="#" target="_blank">copiar link</a></dd>
-					<dd>[sg] <a href="#" target="_blank">g+</a></dd>
-					<dd>[st] <a href="#" target="_blank">twitter</a></dd>
-					<dd>[sf] <a href="#" target="_blank">facebook</a></dd>
-				</dl>
-			</aside>
-		</article>
-		<footer>
-			<div class="source-org vcard copyright">
-				Copyright 2015 <span class="org fn">Rômulo Collopy</span>
-			</div>
-		</footer>
-	</body>
-</html>
+					07/01/2015
+				</time>, 
+				<span class="byline author vcard">
+					<span class="fn">Rômulo Collopy</span>
+				</span>
+				<h2>But Will It Make You Happy?</h2>
+				<h3>
+					How you spend has a greater effect on your happiness than how
+					much you spend, researchers say.
+				</h3>
+			</article>
+		</section>
+		<aside>
+			<dl>
+				<dt>./collo.py --compartilhar</dt>
+				<dd>[yy] <a href="#" target="_blank">copiar link</a></dd>
+				<dd>[sg] <a href="#" target="_blank">g+</a></dd>
+				<dd>[st] <a href="#" target="_blank">twitter</a></dd>
+				<dd>[sf] <a href="#" target="_blank">facebook</a></dd>
+			</dl>
+		</aside>
+		{% endblock content %}
