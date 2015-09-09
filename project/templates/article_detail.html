@@ -3,16 +3,15 @@
 		{% block content %}
 		<article class="hentry">
 			<header>
-				<h1 class="entry-title">But Will It Make You Happy?</h1>
+				<h1 class="entry-title">{{ article.title }}</h1>
 				<h2 class="entry-summary">
-					How you spend has a greater effect on your happiness than how
-					much you spend, researchers say.
+					{{ article.subtitle }}
 				</h2>
-				<time class="published" datetime="2012-01-07 11:11:03-0400">
-				07/01/2015
+				<time class="published" datetime="{{ article.publish_date }}">
+					{{ article.publish_date.strftime('%d-%m-%Y') }}
 				</time>
 				<p class="byline author vcard">
-					__author__ = "<span class="fn">Rômulo Collopy</span>"
+					__author__ = "<span class="fn">{{ article.author }}</span>"
 				</p>
 			</header>
 			<div class="entry-content">
