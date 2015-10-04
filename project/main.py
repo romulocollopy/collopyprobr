@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 
+from datetime import datetime
+
 from flask import Flask
 from flask import render_template
 
-from datetime import datetime
+from flask.ext.pymongo import PyMongo
 
 
-app = Flask(__name__)
-
+app = Flask('collopyprobr')
+db = PyMongo(app)
 
 class MockArticles:
     articles = {}
@@ -18,7 +20,7 @@ class MockArticles:
             'subtitle': 'O que e onde mockar seus testes',
             'content': '<p>Oi tudo bom?</p>',
             'publish_date': datetime.strptime('2015-09-12', "%Y-%m-%d"),
-            'author': 'Rômulo Collopy'
+            'author': 'Rômulo mainpy'
         }
 
     def find(self, key):
