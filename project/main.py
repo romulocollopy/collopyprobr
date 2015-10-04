@@ -20,7 +20,7 @@ class MockArticles:
             'subtitle': 'O que e onde mockar seus testes',
             'content': '<p>Oi tudo bom?</p>',
             'publish_date': datetime.strptime('2015-09-12', "%Y-%m-%d"),
-            'author': 'Rômulo mainpy'
+            'author': 'Rômulo Collopy'
         }
 
     def find(self, key):
