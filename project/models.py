@@ -1,13 +1,3 @@
-#!/usr/bin/env python
-
-from flask import Flask
-from flask import render_template
-
-from datetime import datetime
-
-
-app = Flask(__name__)
-
 
 class MockArticles:
     articles = {}
@@ -31,22 +21,3 @@ class MockArticles:
             raise KeyError('Article already exists')
         self.articles[slug] = content
 
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-
-@app.route('/articles/<path:post_slug>/')
-def entry_detail(post_slug=None):
-    articles = MockArticles()
-    articles.prepopulate()
-    article=articles.find(post_slug)
-    if not article:
-        return 'Oops! The article "%s" was not found.'\
-                    % post_slug, 404
-    return render_template('article_detail.html', article=article)
-
-if __name__ == '__main__':
-    app.debug = True
-    app.run()
