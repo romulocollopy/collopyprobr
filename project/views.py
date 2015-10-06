@@ -14,7 +14,7 @@ def index():
 @views.route('/articles/<path:post_slug>/')
 def entry_detail(post_slug=None):
     articles = Article()
-    article=articles.find(post_slug)
+    article = articles.find(post_slug)
     if not article:
         return 'Oops! The article "%s" was not found.'\
                     % post_slug, 404

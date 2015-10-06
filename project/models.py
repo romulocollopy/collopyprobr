@@ -26,4 +26,3 @@ class MockArticle:
         if slug in self.articles.keys():
             raise KeyError('Article already exists')
         self.articles[slug] = content
-
