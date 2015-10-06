@@ -1,6 +1,11 @@
+from datetime import datetime
 
-class MockArticles:
+
+class MockArticle:
     articles = {}
+
+    def __init__(self):
+        self.prepopulate()
 
     def prepopulate(self):
         self.articles['mock-applications'] = {

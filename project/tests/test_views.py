@@ -1,13 +1,16 @@
 import pytest
-from .. import main
+from main import create_app
+
+
+app = create_app()
 
 
 class TestViews:
 
     @pytest.fixture
     def app(self):
-        main.app.config['TESTING'] = True
-        return main.app.test_client()
+        app.config['TESTING'] = True
+        return app.test_client()
 
     def test_index_200(self, app):
         rv = app.get('/')
