@@ -2,19 +2,20 @@ from datetime import datetime
 
 
 class MockArticle:
-    articles = {}
 
-    def __init__(self):
+    def __init__(self, articles=None):
+        self.articles = articles or {}
         self.prepopulate()
 
     def prepopulate(self):
-        self.articles['mock-applications'] = {
+        content = {
             'title': 'Trabalhando com o Mock',
             'subtitle': 'O que e onde mockar seus testes',
             'content': '<p>Oi tudo bom?</p>',
             'publish_date': datetime.strptime('2015-09-12', "%Y-%m-%d"),
             'author': 'Rômulo Collopy'
         }
+        self.insert_one('mock-applications', content)
 
     def find(self, key):
         return self.articles.get(key, None)
